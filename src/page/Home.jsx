@@ -26,7 +26,7 @@ function Home() {
           </p>
           <div className="join-container">
             <button className="join">Join course</button>
-            <BsFillPlayCircleFill className="play-icon" />
+            <BsFillPlayCircleFill className="play-icon"href="https://youtu.be/1SZle1skb84?t=5" />
             <span>See how it works?</span>
           </div>
         </div>
