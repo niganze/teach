@@ -1,0 +1,9 @@
+.container_best {
+  display: flex;
+  flex-basis: auto;
+  align-content: space-between;
+}
+.cards_best {
+  display: grid;
+  
+}
