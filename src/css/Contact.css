@@ -107,7 +107,20 @@
   }
   
   .Partners .too_logo img + img {
-    margin-left: 23px; /* add spacing between images */
+    margin-left: 20px; /* add spacing between images */
   }
+  .next {
+   background-color: #525FE1;
+   border-radius: 100%;
+   color: white;
+   font-size: 1.4em; 
+   transform: scale(1.5);
+   cursor: pointer;
+  }
+  .next:hover{
+    background-color: #FFCF59;
+    color:#525FE1 ;
+  }
+ 
 
   

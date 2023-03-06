@@ -1,8 +1,13 @@
 import React from "react";
 import ALAI from "../../aseets/experts.jpg";
 import MAMA from "../../aseets/figama33.jpeg";
-import AL from "../../aseets/figma2.jpg";
+import AL from "../../aseets/figma3.jpg";
+import GG from "../../aseets/figma4.jpg";
+import AG from "../../aseets/figma1.jpg";
+import ALL from "../../aseets/figma5.jpg";
 import partnersData from './partnersData.js'
+import { IoMdPlayCircle } from 'react-icons/io';
+import { AiFillPlayCircle } from 'react-icons/ai';
 import "../../css/Contact.css";
 function Contact() {
   return (
@@ -24,14 +29,17 @@ function Contact() {
       </div>
       <h1 className="say">What our Student say</h1>
       <div className="blog">
+      
         <div className="div1">
           <div className="subdiv1">
             <img src={AL} alt="connection failure" />
           </div>
           <div className="subdiv1">
-            <img src={AL} alt="connection failure"/>
+            <img src={AG} alt="connection failure"/>
+            <AiFillPlayCircle className="next"/>
           </div>
         </div>
+         
         <div className="div2">
           <img src={MAMA} alt="connection failed" />
           <h5>NIYIKUNDA lvyinne</h5>
@@ -43,10 +51,11 @@ function Contact() {
         </div>
         <div className="div1">
           <div className="subdiv1">
-            <img src={AL} alt="connection failure" />
+            <img src={ALL} alt="connection failure" />
           </div>
           <div className="subdiv1">
-            <img src={AL} alt=" connection failure" />
+            <img src={GG} alt=" connection failure" />
+            <IoMdPlayCircle className="next"/>
           </div>
         </div>
       </div>

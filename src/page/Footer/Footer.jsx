@@ -4,21 +4,30 @@ import { AiFillFacebook } from 'react-icons/ai';
 import { BsWhatsapp } from 'react-icons/bs';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { AiFillTwitterCircle } from 'react-icons/ai';
+import { FcAbout } from 'react-icons/fc';
+import { FcServiceMark } from 'react-icons/fc';
+import { MdSchool } from 'react-icons/md';
+import { FcHome } from 'react-icons/fc';
+import { BsFillTelephoneInboundFill } from 'react-icons/bs';
+import { MdEmail } from 'react-icons/md';
+import { IoSchoolSharp } from 'react-icons/io5';
+import { GiTeacher } from 'react-icons/gi';
+import { SlEnvolopeLetter } from 'react-icons/si';
 function Footer() {
   return (
     <div className='footer'>
         <div className='About'>
-         <h5 className='logo'>Teachme</h5>
+         <h5 className='logo'><FcHome/>Teachme</h5>
          <ul>
-          <li><a href="#">teachme@gmail.com</a></li>
-          <li><a href="#">+250 123 457 236</a></li>
-          <li><a href="#">Become an instructor</a></li>
-          <li><a href="#">Become an student</a></li>
+          <li><a href="#"><MdEmail/>teachme@gmail.com</a></li>
+          <li><a href="#"><BsFillTelephoneInboundFill/>+250 123 457 236</a></li>
+          <li><a href="#"><GiTeacher/>Become an instructor</a></li>
+          <li><a href="#"><IoSchoolSharp/>Become an student</a></li>
           <li><p>@2023 TeachmeAll rights reserved</p></li>
           </ul>
         </div> 
         <div className='Courses'>
-         <h5>About us </h5>
+         <h5><FcAbout/>About us </h5>
          <ul>
           <li><a href="#">Email</a></li>
           <li><a href="#">Blog</a></li>
@@ -26,7 +35,7 @@ function Footer() {
           </ul>
         </div> 
         <div className='Services '>
-         <h5>Services </h5>
+         <h5> <FcServiceMark/>Services </h5>
          <ul>
           <li><a href="#">Scholarships</a></li>
           <li><a href="#">Teaching and coaching </a></li>
@@ -34,7 +43,7 @@ function Footer() {
           </ul>
         </div> 
         <div className='Services '>
-         <h5>Courses</h5>
+         <h5><MdSchool/>Courses</h5>
          <ul>
           <li><a href="#">Sciences course </a></li>
           <li><a href="#">Entreprenuership courses </a></li>
@@ -42,8 +51,8 @@ function Footer() {
           </ul>
         </div> 
         <div className="subscribe">
-            <h5>SUBSCRIBE TO LETTER</h5>
-            <input type="email" placeholder='Enter your emai'/>
+            <h5>SUBSCRIBE TO OUR NEWS PAPER</h5>
+            <input type="email" placeholder= 'example@gmail.com'/>
             <button>SUBCRIBE</button>
             <div class="social-networks">
             <AiFillFacebook/>

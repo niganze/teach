@@ -1,21 +1,21 @@
-import BB from '../../aseets/SCIENCE.jpg';
-import BBM from '../../aseets/ENGLISH.jpg';
-import BBMM from '../../aseets/history.jpg';
-import BBB from '../../aseets/geogra.jpg';
-import BBO from '../../aseets/IMIBARE.jpg';
+import BBG from '../../aseets/SCIENCEW.jpg';
+import BBM from '../../aseets/ENGLISHR.jpg';
+import ZZZ from '../../aseets/HISTORYX.jpg';
+import BBB from '../../aseets/SCIENCEW.jpg';
+import BBO from '../../aseets/MATHEMATICS.jpg';
 const data = [
     {
-      image: BBB,
+      image: BBG,
       category: "SCIENCE",
       title: "Be one the best one"
     },
     {
-      image: BBB,
+      image: BBM,
       category: "ENGLISH",
       title: "Be one the best one"
     },
     {
-      image: BBB,
+      image: ZZZ,
       category: "HISTORY",
       title: "Be one the best one"
     },
@@ -25,8 +25,8 @@ const data = [
       title: "Be one the best one"
     },
     {
-        image: BBB,
-        category: "GEOGRAPHY",
+        image: BBO,
+        category: "MATHEMATICS",
         title: "Be one the best one"
     }
   ];

@@ -1,7 +1,7 @@
 import  KK from '../../aseets/scienceforkids.jpg'
 import  MM from '../../aseets/tech.jpg'
 import  AA from '../../aseets/HISTORYV.jpg'
-import  CC from '../../aseets/GEO.jpg'
+import  CC from '../../aseets/earth.jpg'
 const courseData = [
     {
       id: 1,

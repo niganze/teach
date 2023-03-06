@@ -11,10 +11,9 @@ function Service() {
     <div className="container">
       <div className="container_service">
         <h4>Browse course by categories</h4>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum{" "}
-        </p>
+        <h5>
+        "Unlock Your Child's Potential with Our Fun and Engaging Courses!"{" "}
+        </h5>
         <div className="container_service_smallcard">
         <BsFillPlayCircleFill className="play-icon" />
           {data.map((service, index) => (
@@ -34,8 +33,10 @@ function Service() {
           <p>{course.title}</p>
           <div className="courseid">
             <p>{course.price}</p>
+            <div className="iconfy">
             <IoHeartCircleOutline size={32} color="#525FE1" />
             <BsPersonCircle size={32} color="#525FE1" />
+            </div>
           </div>
         </div>
       ))}
