@@ -4,7 +4,8 @@ import { FcExpired } from 'react-icons/fc';
 import { FcBiohazard } from 'react-icons/fc';
 function About() {
   return (
-    <div className='container'>
+    <section>
+    <div className='container' id="about">
        <p className='about_container'> OUR BEST ONE  MENTOR </p>
       <div className="cards">
         {data.map((card, index) => (
@@ -20,6 +21,7 @@ function About() {
         ))}
       </div>
     </div>
+    </section>
   )
 }
 

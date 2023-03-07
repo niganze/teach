@@ -1,9 +1,8 @@
 .menu {
   position: fixed;
   top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #fff;
-  z-index: 999;
-  margin-bottom: 30px;
+  /* left: 0; */
+  /* width: 100%; */
+  /* background-color: #fff;  */
+  /* z-index: 100;  */
 }

@@ -8,7 +8,7 @@ import { BsPersonCircle } from 'react-icons/bs';
 import { IoHeartCircleOutline } from 'react-icons/io5';
 function Service() {
   return (
-    <div className="container">
+    <div className="container" id="service">
       <div className="container_service">
         <h4>Browse course by categories</h4>
         <h5>

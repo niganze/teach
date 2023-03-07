@@ -2,12 +2,11 @@ import React from "react";
 import "../css/Home.css";
 import LOGO from "../aseets/alainlogo.png";
 import ME from "../aseets/rightsphoto.jpg";
-import { BsFillPlayCircleFill } from "react-icons/bs";
-
+import { BsFillPlayCircleFill } from "react-icons/bs"
 function Home() {
   return (
  <div>
-    <div className=" container">
+    <div className=" container" id="home">
       <div className="home">
         <div className="left">
           <div className="flx">
@@ -42,6 +41,7 @@ function Home() {
       <span class="experts">310K+<br/><p className="sub_container_experts">Trendy Subjects</p></span>
     </div>
     </div>
+
   );
 }
 export default Home;

@@ -11,7 +11,8 @@ import { AiFillPlayCircle } from 'react-icons/ai';
 import "../../css/Contact.css";
 function Contact() {
   return (
-    <div className="container">
+    // <section className="."  id="">
+    <div className="container" id="blog">
       <div className="container_contact">
         <div className="container_contact_left">
           <h1>We Have Highly Expert & Experienced Tutors</h1>
@@ -29,7 +30,6 @@ function Contact() {
       </div>
       <h1 className="say">What our Student say</h1>
       <div className="blog">
-      
         <div className="div1">
           <div className="subdiv1">
             <img src={AL} alt="connection failure" />
@@ -39,7 +39,6 @@ function Contact() {
             <AiFillPlayCircle className="next"/>
           </div>
         </div>
-         
         <div className="div2">
           <img src={MAMA} alt="connection failed" />
           <h5>NIYIKUNDA lvyinne</h5>
@@ -68,6 +67,7 @@ function Contact() {
       ))}
     </div>
     </div>
+    // </section>
   );
   }
 export default Contact;

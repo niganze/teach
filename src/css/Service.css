@@ -34,7 +34,10 @@
 .container_service_smallcard {
      display: flex;
      flex-direction: row;
-    justify-content:  space-between;
+     align-items: center;
+     justify-content: center;
+    /* justify-content:  space-between; */
+    /* border: 1px solid red; */
   }
   .cardc {
     width: 182px;
@@ -53,6 +56,10 @@
   .cardc:hover {
     transform: scale(1.05);
     cursor: pointer;
+  }
+  .image-container{
+    position: relative;
+    display:inline block;
   }
   .play-icon {
     color: #525FE1; 
@@ -75,9 +82,7 @@
     line-height: 22px;
     color: #000000;
     margin-bottom: 5px;
-   
   }
-  
   .cardc h5 {
     font-family: 'Poppins';
     font-style: normal;
@@ -122,10 +127,6 @@
     align-items: center;
     background-color: #f7f7f7;
     padding: 10px;
-  }
-  
-  .courseid p {
-   
   }
   .iconfy{
     font-size: 24px;

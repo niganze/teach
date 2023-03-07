@@ -1,4 +1,4 @@
-import "../css/Home.css"
+
 // import '../css/Navbar.css'
 function Navbar() {
   return (
@@ -8,11 +8,12 @@ function Navbar() {
           Teach<span>me</span>
         </div>
         <div className="link">
-          <a href=" ">Home</a>
-          <a href=" ">Aboutus</a>
-          <a href=" ">Contact</a>
-          <a href=" ">Service </a>
-          <a href=" ">Teachers</a>
+          <a href=" #">Home</a>
+          <a href="#about">Aboutus</a>
+          <a href="#contactfor">Contact</a>
+          <a href="#service ">Service </a>
+          <a href="#blog">Blog </a>
+          <a href=" #">Teachers</a>
           <button>
             <a href="sign in">sign in </a>
             <a href="sign up">Sign up</a>
