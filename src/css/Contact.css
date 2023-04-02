@@ -1,126 +1,60 @@
-/* .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  } */
-  
-  .container_contact {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 10px;
-    margin-bottom: 20px;
-  }
-  
-  .container_contact_left {
-    flex-basis: 50%;
-    padding-right: 40px;
-  }
-  
-  .container_contact_right {
-    flex-basis: 50%;
-  }
-  
-  .container_contact h1 {
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    line-height: 1.2;
-  }
-  
-  .container_contact p {
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 40px;
-  }
-  
-  .container_contact button {
-    display: inline-block;
-    background-color: #FFCF59;
-    color: black;
-    padding: 16px 32px;
-    border-radius: 30px;
-    font-size: 18px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.2s;
-  }
-  .container_contact button:hover {
-    background-color: #3e47b1;
-    color:yellow;
-  }
-  .container_contact_right img {
-    max-width: 100%;
-    height: 417px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
-  }
-  .blog .div1 .subdiv1 img{
-   border-radius: 100%;
-   height: 100px;
-   width: 100px;
-   margin-bottom: 70%;
-  }
-  .blog{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .div2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background-color: none;
-    border-radius: 10px;
-  }
-  
-  .div2 img {
-    border-radius: 40%;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    padding: none !important;
-  }
-  .div2 h6 {
-    margin-top: 1px;
-  }
-  .div2 h5 {
-    margin-top: 1px;
-  }
-  .div2 p {
-    margin-top: 1px;
-  }
-  .Partners {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .too_logo img {
-    width: 100px;
-    height: 80px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  }
-  .Partners .too_logo img:hover {
-    transform: scale(1.1); /* increase image size on hover */
-    transition: all 0.3s ease-in-out; /* add smooth transition */
-  }
-  
-  .Partners .too_logo img + img {
-    margin-left: 20px; /* add spacing between images */
-  }
-  .next {
-   background-color: #525FE1;
-   border-radius: 100%;
-   color: white;
-   font-size: 1.4em; 
-   transform: scale(1.5);
-   cursor: pointer;
-  }
-  .next:hover{
-    background-color: #FFCF59;
-    color:#525FE1 ;
-  }
- 
 
-  
+.ContactForg {
+  background-color: #f7f7f7;
+  padding: 70px ;
+  text-align: center;
+}
+
+.ContactForg h5 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.form_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+.form {
+  flex-basis: 45%;
+}
+
+.mesasge {
+  flex-basis: 50%;
+}
+
+label {
+  display: flex;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #5f98b3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #0062cc;
+}
